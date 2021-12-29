@@ -99,8 +99,6 @@ module GiantSquid
 
       @unmarked_numbers = @row_boards[last_to_win_index].flatten.sum
 
-      puts @row_boards[last_to_win_index].inspect
-     
       last_to_win_number * @unmarked_numbers
     end
 
